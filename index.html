@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>個人網頁排版</title>
     <link rel="stylesheet" href="webstyle.css">
-  </head>
+</head>
   <body>
     <header>
       <h1>個人履歷網站</h1>
@@ -14,15 +14,16 @@
     </header>
 
     <nav>
-      <h2><a href="about me" class="topbar">關於我</a>
-      <a href="skill">個人專業與技能</a>
-      <a href="experience">經歷</a>
-      <a href="contact">聯絡資訊</a></h2>
+      <h2><a href="#about me" class="topbar">關於我</a>
+        <a href="#skill">個人專業與技能</a>
+        <a href="#experience1">專案經歷</a>
+        <a href="#experience2">社團經歷</a>
+        <a href="#contact">聯絡資訊</a></h2>
     </nav>
 
     <main>
       <article>
-        <section class="card">
+        <section class="card" id="about me">
         <h2>關於我</h2>
         <img src="image/IMG20231021120610 (1).jpg" style="border-radius: 30%; width: 500px; height: auto;" />
         <p>陳筱莓 |  Joyce Chen </p>
@@ -33,10 +34,10 @@
         </section>
 
     <article>
-      <section class="card">
+      <section class="card" id="skill">
           <h2>
           <tr>
-          <th class="programming2" colspan="2">
+          <th class="programming2" colspan="2" id="skill">
             個人專業與技能
           </th>
           </tr>
@@ -74,7 +75,7 @@
         
         </section>
 
-        <section class="card">
+        <section class="card" id="experience1">
           <h2>專案經歷</h2>
             <p>企業概論-香香豆纖營養餅 </p>
           <p>
@@ -91,7 +92,7 @@
           <p>大一參加二次創作研究社,第一次嘗試cosplay</p>
           <p>大二擔任二次創作研究社團幹部-網管,負責管理社團粉專貼文</p>
       </section>
-      <section class="card">
+      <section class="card" id="experience2">
         <h2>工作經驗 </h2>
         <img src="image/undefined.jpg" style="border-radius: 30%; width: 500px; height: auto;" />
         <p>目前在中原大學推廣教育處擔任行政工讀</p>
@@ -99,7 +100,7 @@
     </section>
           <h3>聯絡資訊</h3>
         </div>
-        <div class="mail">
+        <div class="mail" id="contact">
           <a href="https://www.instagram.com/joyce921012/" target="_blank"><img src="image/Instagram_logo_2022.svg.webp"style="border-radius: 30%; width: 100px; height: auto;"></a>
           <a href="mailto:joyce15169@gmail" target="_blank"><img src="image/unnamed.png"style="border-radius: 30%; width: 100px; height: auto;"></a>
         </div>
